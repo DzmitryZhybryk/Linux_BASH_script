@@ -1,0 +1,236 @@
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: centos.ip-connect.vn.ua
+ * extras: centos.ip-connect.vn.ua
+ * updates: centos.ip-connect.vn.ua
+Resolving Dependencies
+--> Running transaction check
+---> Package openssh-server.x86_64 0:7.4p1-21.el7 will be updated
+---> Package openssh-server.x86_64 0:7.4p1-22.el7_9 will be an update
+--> Processing Dependency: openssh = 7.4p1-22.el7_9 for package: openssh-server-7.4p1-22.el7_9.x86_64
+--> Running transaction check
+---> Package openssh.x86_64 0:7.4p1-21.el7 will be updated
+--> Processing Dependency: openssh = 7.4p1-21.el7 for package: openssh-clients-7.4p1-21.el7.x86_64
+---> Package openssh.x86_64 0:7.4p1-22.el7_9 will be an update
+--> Running transaction check
+---> Package openssh-clients.x86_64 0:7.4p1-21.el7 will be updated
+---> Package openssh-clients.x86_64 0:7.4p1-22.el7_9 will be an update
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package               Arch         Version                 Repository     Size
+================================================================================
+Updating:
+ openssh-server        x86_64       7.4p1-22.el7_9          updates       459 k
+Updating for dependencies:
+ openssh               x86_64       7.4p1-22.el7_9          updates       510 k
+ openssh-clients       x86_64       7.4p1-22.el7_9          updates       655 k
+
+Transaction Summary
+================================================================================
+Upgrade  1 Package (+2 Dependent packages)
+
+Total download size: 1.6 M
+Downloading packages:
+Delta RPMs disabled because /usr/bin/applydeltarpm not installed.
+--------------------------------------------------------------------------------
+Total                                              4.6 MB/s | 1.6 MB  00:00     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Updating   : openssh-7.4p1-22.el7_9.x86_64                                1/6 
+  Updating   : openssh-server-7.4p1-22.el7_9.x86_64                         2/6 
+  Updating   : openssh-clients-7.4p1-22.el7_9.x86_64                        3/6 
+  Cleanup    : openssh-clients-7.4p1-21.el7.x86_64                          4/6 
+  Cleanup    : openssh-server-7.4p1-21.el7.x86_64                           5/6 
+  Cleanup    : openssh-7.4p1-21.el7.x86_64                                  6/6 
+  Verifying  : openssh-server-7.4p1-22.el7_9.x86_64                         1/6 
+  Verifying  : openssh-clients-7.4p1-22.el7_9.x86_64                        2/6 
+  Verifying  : openssh-7.4p1-22.el7_9.x86_64                                3/6 
+  Verifying  : openssh-clients-7.4p1-21.el7.x86_64                          4/6 
+  Verifying  : openssh-7.4p1-21.el7.x86_64                                  5/6 
+  Verifying  : openssh-server-7.4p1-21.el7.x86_64                           6/6 
+
+Updated:
+  openssh-server.x86_64 0:7.4p1-22.el7_9                                        
+
+Dependency Updated:
+  openssh.x86_64 0:7.4p1-22.el7_9    openssh-clients.x86_64 0:7.4p1-22.el7_9   
+
+Complete!
+   Active: active (running) since Mon 2022-02-21 07:54:33 EST; 558ms ago
+PermitRootLogin no
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: centos.ip-connect.vn.ua
+ * extras: centos.ip-connect.vn.ua
+ * updates: centos.ip-connect.vn.ua
+Package iptables-1.4.21-35.el7.x86_64 already installed and latest version
+Nothing to do
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+No packages marked for update
+Loaded plugins: fastestmirror
+Cleaning repos: LocalRepo base extras updates
+Cleaning up list of fastest mirrors
+  Physical volume "/dev/sdb" successfully created.
+  Physical volume "/dev/sdc" successfully created.
+  Physical volume "/dev/sdd" successfully created.
+  Volume group "storage" successfully created
+  Using default stripesize 64.00 KiB.
+  Rounding size (1533 extents) down to stripe boundary size (1532 extents)
+  Logical volume "storageVolumeLMV" created.
+meta-data=/dev/storage/storageVolumeLMV isize=512    agcount=8, agsize=130544 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0, sparse=0
+data     =                       bsize=4096   blocks=1044352, imaxpct=25
+         =                       sunit=16     swidth=80 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal log           bsize=4096   blocks=2560, version=2
+         =                       sectsz=512   sunit=16 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+Loaded plugins: fastestmirror
+Determining fastest mirrors
+ * base: ftp.byfly.by
+ * extras: ftp.byfly.by
+ * updates: ftp.byfly.by
+Resolving Dependencies
+--> Running transaction check
+---> Package nfs-utils.x86_64 1:1.3.0-0.68.el7.2 will be installed
+--> Processing Dependency: libtirpc >= 0.2.4-0.7 for package: 1:nfs-utils-1.3.0-0.68.el7.2.x86_64
+--> Processing Dependency: gssproxy >= 0.7.0-3 for package: 1:nfs-utils-1.3.0-0.68.el7.2.x86_64
+--> Processing Dependency: rpcbind for package: 1:nfs-utils-1.3.0-0.68.el7.2.x86_64
+--> Processing Dependency: quota for package: 1:nfs-utils-1.3.0-0.68.el7.2.x86_64
+--> Processing Dependency: libnfsidmap for package: 1:nfs-utils-1.3.0-0.68.el7.2.x86_64
+--> Processing Dependency: libevent for package: 1:nfs-utils-1.3.0-0.68.el7.2.x86_64
+--> Processing Dependency: keyutils for package: 1:nfs-utils-1.3.0-0.68.el7.2.x86_64
+--> Processing Dependency: libtirpc.so.1()(64bit) for package: 1:nfs-utils-1.3.0-0.68.el7.2.x86_64
+--> Processing Dependency: libnfsidmap.so.0()(64bit) for package: 1:nfs-utils-1.3.0-0.68.el7.2.x86_64
+--> Processing Dependency: libevent-2.0.so.5()(64bit) for package: 1:nfs-utils-1.3.0-0.68.el7.2.x86_64
+--> Running transaction check
+---> Package gssproxy.x86_64 0:0.7.0-30.el7_9 will be installed
+--> Processing Dependency: libini_config >= 1.3.1-31 for package: gssproxy-0.7.0-30.el7_9.x86_64
+--> Processing Dependency: libverto-module-base for package: gssproxy-0.7.0-30.el7_9.x86_64
+--> Processing Dependency: libref_array.so.1(REF_ARRAY_0.1.1)(64bit) for package: gssproxy-0.7.0-30.el7_9.x86_64
+--> Processing Dependency: libini_config.so.3(INI_CONFIG_1.2.0)(64bit) for package: gssproxy-0.7.0-30.el7_9.x86_64
+--> Processing Dependency: libini_config.so.3(INI_CONFIG_1.1.0)(64bit) for package: gssproxy-0.7.0-30.el7_9.x86_64
+--> Processing Dependency: libref_array.so.1()(64bit) for package: gssproxy-0.7.0-30.el7_9.x86_64
+--> Processing Dependency: libini_config.so.3()(64bit) for package: gssproxy-0.7.0-30.el7_9.x86_64
+--> Processing Dependency: libcollection.so.2()(64bit) for package: gssproxy-0.7.0-30.el7_9.x86_64
+--> Processing Dependency: libbasicobjects.so.0()(64bit) for package: gssproxy-0.7.0-30.el7_9.x86_64
+---> Package keyutils.x86_64 0:1.5.8-3.el7 will be installed
+---> Package libevent.x86_64 0:2.0.21-4.el7 will be installed
+---> Package libnfsidmap.x86_64 0:0.25-19.el7 will be installed
+---> Package libtirpc.x86_64 0:0.2.4-0.16.el7 will be installed
+---> Package quota.x86_64 1:4.01-19.el7 will be installed
+--> Processing Dependency: quota-nls = 1:4.01-19.el7 for package: 1:quota-4.01-19.el7.x86_64
+--> Processing Dependency: tcp_wrappers for package: 1:quota-4.01-19.el7.x86_64
+---> Package rpcbind.x86_64 0:0.2.0-49.el7 will be installed
+--> Running transaction check
+---> Package libbasicobjects.x86_64 0:0.1.1-32.el7 will be installed
+---> Package libcollection.x86_64 0:0.7.0-32.el7 will be installed
+---> Package libini_config.x86_64 0:1.3.1-32.el7 will be installed
+--> Processing Dependency: libpath_utils.so.1(PATH_UTILS_0.2.1)(64bit) for package: libini_config-1.3.1-32.el7.x86_64
+--> Processing Dependency: libpath_utils.so.1()(64bit) for package: libini_config-1.3.1-32.el7.x86_64
+---> Package libref_array.x86_64 0:0.1.5-32.el7 will be installed
+---> Package libverto-libevent.x86_64 0:0.2.5-4.el7 will be installed
+---> Package quota-nls.noarch 1:4.01-19.el7 will be installed
+---> Package tcp_wrappers.x86_64 0:7.6-77.el7 will be installed
+--> Running transaction check
+---> Package libpath_utils.x86_64 0:0.2.1-32.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+================================================================================
+ Package               Arch       Version                   Repository     Size
+================================================================================
+Installing:
+ nfs-utils             x86_64     1:1.3.0-0.68.el7.2        updates       413 k
+Installing for dependencies:
+ gssproxy              x86_64     0.7.0-30.el7_9            updates       111 k
+ keyutils              x86_64     1.5.8-3.el7               LocalRepo      54 k
+ libbasicobjects       x86_64     0.1.1-32.el7              LocalRepo      26 k
+ libcollection         x86_64     0.7.0-32.el7              LocalRepo      42 k
+ libevent              x86_64     2.0.21-4.el7              LocalRepo     214 k
+ libini_config         x86_64     1.3.1-32.el7              LocalRepo      64 k
+ libnfsidmap           x86_64     0.25-19.el7               LocalRepo      50 k
+ libpath_utils         x86_64     0.2.1-32.el7              LocalRepo      28 k
+ libref_array          x86_64     0.1.5-32.el7              LocalRepo      27 k
+ libtirpc              x86_64     0.2.4-0.16.el7            LocalRepo      89 k
+ libverto-libevent     x86_64     0.2.5-4.el7               LocalRepo     8.9 k
+ quota                 x86_64     1:4.01-19.el7             LocalRepo     179 k
+ quota-nls             noarch     1:4.01-19.el7             LocalRepo      90 k
+ rpcbind               x86_64     0.2.0-49.el7              LocalRepo      60 k
+ tcp_wrappers          x86_64     7.6-77.el7                LocalRepo      78 k
+
+Transaction Summary
+================================================================================
+Install  1 Package (+15 Dependent packages)
+
+Total download size: 1.5 M
+Installed size: 4.3 M
+Downloading packages:
+--------------------------------------------------------------------------------
+Total                                              5.7 MB/s | 1.5 MB  00:00     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : libbasicobjects-0.1.1-32.el7.x86_64                         1/16 
+  Installing : libref_array-0.1.5-32.el7.x86_64                            2/16 
+  Installing : libcollection-0.7.0-32.el7.x86_64                           3/16 
+  Installing : libevent-2.0.21-4.el7.x86_64                                4/16 
+  Installing : libtirpc-0.2.4-0.16.el7.x86_64                              5/16 
+  Installing : rpcbind-0.2.0-49.el7.x86_64                                 6/16 
+  Installing : libverto-libevent-0.2.5-4.el7.x86_64                        7/16 
+  Installing : 1:quota-nls-4.01-19.el7.noarch                              8/16 
+  Installing : tcp_wrappers-7.6-77.el7.x86_64                              9/16 
+  Installing : 1:quota-4.01-19.el7.x86_64                                 10/16 
+  Installing : keyutils-1.5.8-3.el7.x86_64                                11/16 
+  Installing : libnfsidmap-0.25-19.el7.x86_64                             12/16 
+  Installing : libpath_utils-0.2.1-32.el7.x86_64                          13/16 
+  Installing : libini_config-1.3.1-32.el7.x86_64                          14/16 
+  Installing : gssproxy-0.7.0-30.el7_9.x86_64                             15/16 
+  Installing : 1:nfs-utils-1.3.0-0.68.el7.2.x86_64                        16/16 
+  Verifying  : libtirpc-0.2.4-0.16.el7.x86_64                              1/16 
+  Verifying  : gssproxy-0.7.0-30.el7_9.x86_64                              2/16 
+  Verifying  : 1:quota-4.01-19.el7.x86_64                                  3/16 
+  Verifying  : libpath_utils-0.2.1-32.el7.x86_64                           4/16 
+  Verifying  : libnfsidmap-0.25-19.el7.x86_64                              5/16 
+  Verifying  : libevent-2.0.21-4.el7.x86_64                                6/16 
+  Verifying  : keyutils-1.5.8-3.el7.x86_64                                 7/16 
+  Verifying  : libverto-libevent-0.2.5-4.el7.x86_64                        8/16 
+  Verifying  : tcp_wrappers-7.6-77.el7.x86_64                              9/16 
+  Verifying  : libcollection-0.7.0-32.el7.x86_64                          10/16 
+  Verifying  : 1:quota-nls-4.01-19.el7.noarch                             11/16 
+  Verifying  : libref_array-0.1.5-32.el7.x86_64                           12/16 
+  Verifying  : libbasicobjects-0.1.1-32.el7.x86_64                        13/16 
+  Verifying  : 1:nfs-utils-1.3.0-0.68.el7.2.x86_64                        14/16 
+  Verifying  : libini_config-1.3.1-32.el7.x86_64                          15/16 
+  Verifying  : rpcbind-0.2.0-49.el7.x86_64                                16/16 
+
+Installed:
+  nfs-utils.x86_64 1:1.3.0-0.68.el7.2                                           
+
+Dependency Installed:
+  gssproxy.x86_64 0:0.7.0-30.el7_9         keyutils.x86_64 0:1.5.8-3.el7        
+  libbasicobjects.x86_64 0:0.1.1-32.el7    libcollection.x86_64 0:0.7.0-32.el7  
+  libevent.x86_64 0:2.0.21-4.el7           libini_config.x86_64 0:1.3.1-32.el7  
+  libnfsidmap.x86_64 0:0.25-19.el7         libpath_utils.x86_64 0:0.2.1-32.el7  
+  libref_array.x86_64 0:0.1.5-32.el7       libtirpc.x86_64 0:0.2.4-0.16.el7     
+  libverto-libevent.x86_64 0:0.2.5-4.el7   quota.x86_64 1:4.01-19.el7           
+  quota-nls.noarch 1:4.01-19.el7           rpcbind.x86_64 0:0.2.0-49.el7        
+  tcp_wrappers.x86_64 0:7.6-77.el7        
+
+Complete!
+exporting 192.168.100.8:/mnt/storage/CatalogForExport
+success
+success
+-A IN_public_allow -p tcp -m tcp --dport 22 -m conntrack --ctstate NEW,UNTRACKED -j ACCEPT
+-A IN_public_allow -p tcp -m tcp --dport 2049 -m conntrack --ctstate NEW,UNTRACKED -j ACCEPT
+COMMIT
+# Completed on Mon Feb 21 07:54:51 2022
